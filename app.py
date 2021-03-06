@@ -120,11 +120,31 @@
 
 # greet("shiva", 'katti')
 
-def increment(number, by=1):
-    return number + by
+# def increment(number, by=1):
+#     return number + by
 
 
-print(increment(2, by=2))
+# print(increment(2, by=2))
 
 # result = (increment(2, 2))
 # print(result)
+
+
+# def multifly(*numbers):
+#     total = 1
+#     for number in numbers:
+#         # print(number)
+#         total = total * number
+#     return total
+
+
+# print(multifly(2, 3, 4, 5, 6))
+
+# def save_user(**user):
+#     print(user["name"])
+
+
+# save_user(id=1, name="shiva", age=28)
+
+def greet():
+    message = "a"
