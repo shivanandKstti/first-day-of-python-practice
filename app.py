@@ -26,10 +26,10 @@
 # print(full_name.replace("ti", "TI"))
 # print("shiv" in full_name)
 # print("shiv" not in full_name)
- 
-# x = 1 
+
+# x = 1
 # x = 1.1
-# x = 1 + 2j 
+# x = 1 + 2j
 
 # print(round(2.9))
 
@@ -61,9 +61,9 @@
 
 # if high_income and good_credit:
 #     print("Eligible")
-# else: 
+# else:
 #     print("not eligible")
-    
+
 # for message in range(1, 10, 2):
 #     print((message + 1) * ".")
 # successful = False
@@ -74,16 +74,16 @@
 #         break
 # else:
 #     print('Attempted 3 times and failed:(')
-        
+
 # for x in range(5):
 #     for y in range(3):
 #         print(f"({x}, {y})")
-     
+
 # print(type(5))
-# print(type(range(5))) # iterable, 
+# print(type(range(5))) # iterable,
 # for x in "Siddarayajja":
 #     print(x.upper())
-    
+
 
 # numner = 100
 # while numner > 0:
@@ -97,12 +97,34 @@
 #     print("ECHO", command)
 #     if command.lower() == 'quit':
 #         break
-count = 0
-for x in range(1, 10):
-    if x % 2 == 0:
-        count += 1
-        print(x)
-print(f"we have {count} even numbers")
-        
-    
-        
+# count = 0
+# for x in range(1, 10):
+#     if x % 2 == 0:
+#         count += 1
+#         print(x)
+# print(f"we have {count} even numbers")
+
+
+# writing own functions
+# def greet():
+#     print("learning py function")
+
+
+# greet()
+
+# arguments to functuons
+
+# def greet(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}")
+
+
+# greet("shiva", 'katti')
+
+def increment(number, by=1):
+    return number + by
+
+
+print(increment(2, by=2))
+
+# result = (increment(2, 2))
+# print(result)
