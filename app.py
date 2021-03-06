@@ -146,5 +146,5 @@
 
 # save_user(id=1, name="shiva", age=28)
 
-def greet():
-    message = "a"
+# def greet():
+#     message = "a"
