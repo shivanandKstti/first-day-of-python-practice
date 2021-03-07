@@ -176,6 +176,12 @@
 # second = numbers[1]
 # third = numbers[2]
 
-letters = ["a", "b", "c", "d"]
-for index, letter in enumerate(letters):
-    print(index, letter)
+# letters = ["a", "b", "c", "d"]
+# for index, letter in enumerate(letters):
+#     print(index, letter)
+
+# letters.append("e")
+# letters.insert(0, "aa")
+# print(letters)
+
+# print(letters.index("a"))
