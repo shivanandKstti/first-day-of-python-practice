@@ -186,14 +186,14 @@
 
 # print(letters.index("a"))
 
-items = [
-    ("product1", 10),
-    ("product 2", 20),
-    ("product 3", 9),
-    ("product 4", 30),
-]
+# items = [
+#     ("product1", 10),
+#     ("product 2", 20),
+#     ("product 3", 9),
+#     ("product 4", 30),
+# ]
 
-prices = [item[1] for item in items]
-print(prices)
-x = list(filter(lambda item: item[1] >= 10, items))
-print(x)
+# prices = [item[1] for item in items]
+# print(prices)
+# x = list(filter(lambda item: item[1] >= 10, items))
+# print(x)
