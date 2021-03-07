@@ -185,3 +185,10 @@
 # print(letters)
 
 # print(letters.index("a"))
+
+items = [
+    ("product1", 10),
+    ("product 2", 20),
+    ("product 2", 20),
+    ("product 2", 20),
+]
