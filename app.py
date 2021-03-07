@@ -148,3 +148,34 @@
 
 # def greet():
 #     message = "a"
+
+
+# def fizz_buzz(input):
+#     if (input % 3 == 0) and (input % 5 == 0):
+#         return "FIZZBUZZ"
+#     if input % 3 == 0:
+#         return "FIZZ"
+#     elif input % 5 == 0:
+#         return "BUZZ"
+#     return input
+
+
+# print(fizz_buzz(1))
+
+
+# letters = ["a", "b", "c", "d"]
+# letters[0] = "A"
+# print(letters[0:3])
+# print(letters[::2])
+
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+# first, second, *other = numbers
+# print(first)
+# print(other)
+# first = numbers[0]
+# second = numbers[1]
+# third = numbers[2]
+
+letters = ["a", "b", "c", "d"]
+for index, letter in enumerate(letters):
+    print(index, letter)
